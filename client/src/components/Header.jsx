@@ -2,7 +2,7 @@ import icon from '../assets/logo.svg'
 import sun from '../assets/icon-sun.svg'
 import moon from '../assets/icon-moon.svg'
 import avatar from '../assets/image-avatar.jpg'
-import { useTheme } from './UseTheme'
+import { useTheme } from './useTheme'
 const Header = () => {
     const {theme, setTheme} = useTheme()
 
